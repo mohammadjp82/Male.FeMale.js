@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>javascript</title>
+    <link rel="stylesheet" type="text/css" href="./js.css">
+</head>
+<body>
+    <div class="button"> <button class="btn" onclick="userAppend()">search</button> </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container">
+        <div class="male" id="maleDiv" onmouseenter="maleAvatarAppear()" onmouseleave="maleAvatarDisappear()"> <ul class="text" id="maleList"> </ul> </div>
+        <div class="female" id="femaleDiv" onmouseenter="femaleAvatarAppear()" onmouseleave="femaleAvatarDisappear()"> <ul class="text" id="femaleList"> </ul> </div>
+
+        <div class="maleAvatarInvicible" id="maleImg"><img src="./assets/male.png"></div>
+        <div class="femaleAvatarInvicible" id="femaleImg"><img src="./assets/female.png"></div>
+    </div>
+
+    <script type="text/javascript" src="./code.js"></script>
+</body>
+</html>
